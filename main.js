@@ -48,9 +48,9 @@ function game(){
         playRound(playerSelection,computerSelection);
     }
     if(computerWins>playerWins){
-        console.log("Computer won by " + " " + computerWins + "points")
+        console.log("Computer won by" + ""  + computerWins + "points")
     }else{
-        console.log("Player won by"+ " " + playerWins + "points")
+        console.log("Player won by" + "" + playerWins + "points")
     }
 }
 game();
